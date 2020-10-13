@@ -1,4 +1,4 @@
-#Spring Boot to-do app challenge
+# Spring Boot to-do app challenge
 
 With this challenge we want to see your skills and the quality of the code, we will take into account the use of SOLID principles. You can use all the tools and libraries you want!
 
