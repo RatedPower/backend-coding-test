@@ -1,23 +1,27 @@
 package com.example.demo.task;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import org.hibernate.annotations.UuidGenerator;
 
-@Entity
+@Entity(name = "task")
 public class TaskEntity {
 
     @Id
-    private int id;
+    @GeneratedValue
+    @UuidGenerator
+    private String id;
 
     private String description;
     private boolean completed;
     private TaskPriority priority;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
