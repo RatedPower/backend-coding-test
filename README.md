@@ -15,7 +15,7 @@ With this challenge we want to see your skills and the quality of the code, we w
 
 Develop the necessary functionalities for the application to be able to perform the following requests:
 
-- **GET** http request that returns a list of all tasks stored in the database.
+- **GET** http request that returns a list of tasks stored in the database.
    - Order results by priority or creation date.
    - Filter results by priority and/or completion.
 - **GET** http request that returns a specific task by their ID.
